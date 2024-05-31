@@ -117,8 +117,8 @@ const floor = new THREE.Mesh(
 floor.rotation.x = - Math.PI * 0.5
 scene.add(floor)
 
-gui.add(floor.material, 'displacementScale').min(0).max(1).step(0.001).name('floorDisplacementScale')
-gui.add(floor.material, 'displacementBias').min(-1).max(1).step(0.001).name('floorDisplacementBias')
+// gui.add(floor.material, 'displacementScale').min(0).max(1).step(0.001).name('floorDisplacementScale')
+// gui.add(floor.material, 'displacementBias').min(-1).max(1).step(0.001).name('floorDisplacementBias')
 
 const house = new THREE.Group()
 scene.add(house)
